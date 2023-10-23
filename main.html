@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tic Tac Toe</title>
+    <link rel="stylesheet" href="/styles.css"/>
+</head>
+<body>
+    <nav class="navbar flex"> WELCOME TO THE TIC TAC TOE GAME APP</nav>
+    <div>
+        <span class="whichPlayerTurn playerTurn">Let's Start</span>
+    </div>
+    <div class="gameContainer">
+        <div class="containerOfMainGame">
+            <div class="line"></div>
+            <div class="box bdrt bdrl"><span class="boxText"></span></div>
+            <div class="box bdrt"><span class="boxText"></span></div>
+            <div class="box bdrt bdrr"><span class="boxText"></span></div>
+            <div class="box bdrl"><span class="boxText"></span></div>
+            <div class="box"><span class="boxText"></span></div>
+            <div class="box bdrr"><span class="boxText"></span></div>
+            <div class="box bdrl bdrb"><span class="boxText"></span></div>
+            <div class="box bdrb"><span class="boxText"></span></div>
+            <div class="box bdrr bdrb"><span class="boxText"></span></div>
+        </div>
+
+        <div class="gameinfo">
+            <div class="resetBtn">
+                <button class="reset">Reset</button>
+            </div>
+
+            <div class="image">
+                <img src="/Winner.gif " alt="win image">
+            </div>             
+            <div class="rules">
+                <h1>Rules</h1>
+                <p> <i>Tic-Tac-Toe is a two-player game played on a 3x3 grid. 
+                    Players take turns marking a vacant cell with their respective symbols, usually "X" and "O," aiming to create a line of three of their symbols horizontally, vertically, or diagonally. 
+                    The game begins with an empty grid, and each player alternates placing their symbol in an empty cell. The first player to achieve a winning line or fill the entire grid without a winner results in a draw.
+                     The objective is to strategically place symbols to block the opponent and set up potential winning moves, making it a game of skill and strategy. 
+                </i></p>
+            </div>
+
+
+        </div>
+    </div>
+    <script src="/main.js"></script>
+</body>
+</html>
